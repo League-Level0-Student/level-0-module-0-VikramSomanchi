@@ -32,7 +32,7 @@ public class QuizGame {
 					JOptionPane.showMessageDialog(null, "sorry, but that is incorrect");
 				}
 				answer = JOptionPane.showInputDialog("which primate learns very fast");
-				if(answer.equalsIgnoreCase("bonbo")) {
+				if(answer.equalsIgnoreCase("bonobo")) {
 					JOptionPane.showMessageDialog(null,"you got it correct");
 					score = score+1;
 				}
@@ -64,12 +64,6 @@ public class QuizGame {
 					JOptionPane.showMessageDialog(null, "sorry, but that is incorrect");
 				}
 		// After all the questions have been asked, tell the user their final score 
-		JOptionPane.showMessageDialog(null, "you got 6 points");
-		JOptionPane.showMessageDialog(null, "you got 5 points");
-		JOptionPane.showMessageDialog(null, "you got 4 points");
-		JOptionPane.showMessageDialog(null, "you got 3 points");
-		JOptionPane.showMessageDialog(null, "you got 2 points");
-		JOptionPane.showMessageDialog(null, "you got 1 points");
-		JOptionPane.showMessageDialog(null, "you got 0 points");
+		JOptionPane.showMessageDialog(null, "you got " + score + " points");
 	}
 }
