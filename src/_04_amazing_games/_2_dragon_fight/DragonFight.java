@@ -45,7 +45,7 @@ public class DragonFight {
 
 			// 5. If they typed in "kick":
 			if(attack.equalsIgnoreCase("kick")) {
-				playerAttack = ran.nextInt(0);
+				playerAttack = ran.nextInt(25);
 			}
 			// -- Find a random number between 0 and 25 and store it in playerAttack.
 
