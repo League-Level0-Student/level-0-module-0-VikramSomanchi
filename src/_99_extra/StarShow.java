@@ -10,20 +10,20 @@ import org.jointheleague.graphical.robot.Robot;
 public class StarShow {
 
 	// This code creates a Batman Robot
-	Robot batman = new Robot("batman");
+	Robot zebdadeb = new Robot("mini");
 	
 	void makeStars() {
 		
 		// This code will draw one star whose size is 150 pixels per side....
 		// but first you have to write some code. Find the drawStar() method and 
 		// write the code to draw a star.
-		drawStar(150);
+		//drawStar(150);
 		
 		// Run the program. Check that your star is the same as the first picture in the recipe.
 		// Remove the drawStar(150) from the program before you proceed.
 		
 		// Set the robot speed to 100
-
+zebdadeb.setSpeed(100);
 		// Make a variable to hold the X position of the Robot and set it to 10
 
 		// Make a variable to hold the Y position of the Robot and set it to 600
